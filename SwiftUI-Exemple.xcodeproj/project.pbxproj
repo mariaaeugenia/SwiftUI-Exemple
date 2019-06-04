@@ -15,6 +15,7 @@
 		7936866F22A6A82F00AA7AE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7936866D22A6A82F00AA7AE7 /* LaunchScreen.storyboard */; };
 		7936867A22A6A83000AA7AE7 /* SwiftUI_ExempleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7936867922A6A83000AA7AE7 /* SwiftUI_ExempleTests.swift */; };
 		7936868522A6A83000AA7AE7 /* SwiftUI_ExempleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7936868422A6A83000AA7AE7 /* SwiftUI_ExempleUITests.swift */; };
+		7936869322A6B77000AA7AE7 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7936869222A6B77000AA7AE7 /* CircleImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7936868022A6A83000AA7AE7 /* SwiftUI-ExempleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-ExempleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7936868422A6A83000AA7AE7 /* SwiftUI_ExempleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ExempleUITests.swift; sourceTree = "<group>"; };
 		7936868622A6A83000AA7AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7936869222A6B77000AA7AE7 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				7936866222A6A82D00AA7AE7 /* AppDelegate.swift */,
 				7936866422A6A82D00AA7AE7 /* SceneDelegate.swift */,
+				7936869222A6B77000AA7AE7 /* CircleImageView.swift */,
 				7936866622A6A82D00AA7AE7 /* ContentView.swift */,
 				7936866822A6A82F00AA7AE7 /* Assets.xcassets */,
 				7936866D22A6A82F00AA7AE7 /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7936869322A6B77000AA7AE7 /* CircleImageView.swift in Sources */,
 				7936866322A6A82D00AA7AE7 /* AppDelegate.swift in Sources */,
 				7936866522A6A82D00AA7AE7 /* SceneDelegate.swift in Sources */,
 				7936866722A6A82D00AA7AE7 /* ContentView.swift in Sources */,

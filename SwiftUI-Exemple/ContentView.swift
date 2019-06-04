@@ -11,10 +11,25 @@ import SwiftUI
 //This structure conforms to the View protocol and describes the view’s content and layout
 struct ContentView : View {
     var body: some View {
-        Text("Hello SwiftUI")
-            .font(.custom("Futura", size: 20.0))
-            .font(.title)
-            .color(.red)
+        
+        VStack {
+            CircleImageView()
+                .scaledToFit()
+            
+            VStack(alignment: .center) {
+            
+                Text("Arya Stark")
+                    .font(.custom("Futura", size: 30.0))
+                    .color(.red)
+                Text("House of Stark")
+                    .font(.custom("Futura", size: 18.0))
+                Text("Assassin")
+                    .font(.custom("Futura", size: 12.0))
+            }
+            .padding()
+            Spacer()
+        }
+        .padding()
     }
 }
 //This structure declares a preview for that view
