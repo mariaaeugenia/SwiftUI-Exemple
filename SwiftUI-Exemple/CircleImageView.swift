@@ -9,8 +9,10 @@
 import SwiftUI
 
 struct CircleImageView : View {
+    var image: Image
+    
     var body: some View {
-        Image("aryaStark")
+        image
             .frame(height: 250)
             .scaledToFill()
             .clipShape(Circle())
@@ -18,14 +20,13 @@ struct CircleImageView : View {
                 Circle().stroke(Color.white, lineWidth: 4)
             )
             .shadow(radius: 10)
-            
     }
 }
 
 #if DEBUG
 struct CircleImageView_Previews : PreviewProvider {
     static var previews: some View {
-        CircleImageView()
+        CircleImageView(image: Image("aryaStark"))
     }
 }
 #endif

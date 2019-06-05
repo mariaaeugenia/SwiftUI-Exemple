@@ -13,8 +13,7 @@ struct ContentView : View {
     var body: some View {
         
         VStack {
-            CircleImageView()
-                .scaledToFit()
+            CircleImageView(image: Image("aryaStark"))
             
             VStack(alignment: .center) {
             
